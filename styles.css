@@ -138,7 +138,6 @@
 
 .container2-2-3-1{
     display: flex;
-    background-color: darkgray;
     padding-left: 10px;
     height: 6vh;
     width: 10vw;
@@ -168,7 +167,7 @@ body{
 .container4{
     display: flex;
     height: 71.75vh;
-    width: 11vw;
+    width: 20vw;
     flex-direction: column;
     font-size: smaller;
     align-items: center;
@@ -219,7 +218,7 @@ body{
 .container5{
     display: flex;
     height: 76vh;
-    width: 78vw;
+    width: 58vw;
     align-items: flex-end;
     justify-content: center;
 }
@@ -308,11 +307,11 @@ body{
 
 .Tshirt-box-1-2-varukorg-box{
     display: flex;
-    background-color: red;
+    background-color: lightblue;
+    border-radius: 5px;
 
-
-    height: 3vh;
-    width: 2vw;
+    height: 4vh;
+    width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -380,11 +379,11 @@ body{
 
 .Tshirt-box-2-2-varukorg-box{
     display: flex;
-    background-color: red;
+    background-color: lightblue;
+    border-radius: 5px;
 
-
-    height: 3vh;
-    width: 2vw;
+    height: 4vh;
+    width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -471,11 +470,11 @@ body{
 
 .Tshirt-box-3-2-varukorg-box{
     display: flex;
-    background-color: red;
+    background-color: lightblue;
+    border-radius: 5px;
 
-
-    height: 3vh;
-    width: 2vw;
+    height: 4vh;
+    width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -543,11 +542,11 @@ body{
 
 .Tshirt-box-4-2-varukorg-box{
     display: flex;
-    background-color: red;
+    background-color: lightblue;
+    border-radius: 5px;
 
-
-    height: 3vh;
-    width: 2vw;
+    height: 4vh;
+    width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -634,11 +633,11 @@ body{
 
 .Tshirt-box-5-2-varukorg-box{
     display: flex;
-    background-color: red;
+    background-color: lightblue;
+    border-radius: 5px;
 
-
-    height: 3vh;
-    width: 2vw;
+    height: 4vh;
+    width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -706,16 +705,17 @@ body{
 
 .Tshirt-box-6-2-varukorg-box{
     display: flex;
-    background-color: red;
+    background-color: lightblue;
+    border-radius: 5px;
 
-
-    height: 3vh;
-    width: 2vw;
+    height: 4vh;
+    width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
 .container6{
     display: flex;
+    background-color: blueviolet;
     height: 72vh;
-    width: 11vw;
+    width: 22vw;
 }
