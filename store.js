@@ -23,6 +23,17 @@ function ready() {
         var button = addToCartButtons[i]
         button.addEventListener('click', addToCartClicked)
     }
+
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+}
+
+function purchaseClicked() {
+    alert('Tack för din betalning')
+    var cartItems = document.getElementsByClassName('container6')[0]
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
 }
 
 function removeCartItem(event) {
@@ -43,10 +54,37 @@ function quantityChanged(event) {
 
 function addToCartClicked(event) {
     var button = event.target
-    var shopItem = button.parentElement.parentElement.parentElement
+    var shopItem = button.parentElement.parentElement.parentElement.parentElement
     var price = shopItem.getElementsByClassName('shop-item-2-pris')[0].innerText
     var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
-    console.log(price, imageSrc)
+    addItemToCart(price, imageSrc)
+    updateCartTotal()
+}
+
+function addItemToCart(price, imageSrc) {
+    var cartRow = document.createElement('div')
+    cartRow.classList.add('cart-row')
+    var cartItems = document.getElementsByClassName('container6')[0]
+    var cartItemNames = cartItems.getElementsByClassName('cart-pris')
+    for(var i = 0; i < cartItemNames.length; i++) {
+        if(cartItemNames[i].innerText == price){
+            alert('Den här varan är redan tillägd till varukorgen')
+            return
+        }
+    }
+    var cartRowContents = `
+    <div class="cart-item cart-column">
+        <img class="cart-item-image" src="${imageSrc}" width="60" height="60">
+    </div>
+    <span class="cart-pris cart-column">${price}</span>
+    <div class="cart-antal cart-column">
+        <input class="cart-antal-input" type="number" value="1">
+        <button class="btn btn-danger" type="button">TA BORT</button>
+    </div>`
+    cartRow.innerHTML = cartRowContents
+    cartItems.append(cartRow)
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
+    cartRow.getElementsByClassName('cart-antal-input')[0].addEventListener('change', quantityChanged)
 }
 
 function updateCartTotal() {
