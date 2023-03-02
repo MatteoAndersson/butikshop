@@ -17,6 +17,12 @@ function ready() {
         var input = quantityInputs[i]
         input.addEventListener('change', quantityChanged)
     }
+
+    var addToCartButtons = document.getElementsByClassName('shop-item-button')
+    for (var i = 0; i < addToCartButtons.length; i++) {
+        var button = addToCartButtons[i]
+        button.addEventListener('click', addToCartClicked)
+    }
 }
 
 function removeCartItem(event) {
@@ -27,9 +33,18 @@ function removeCartItem(event) {
 
 function quantityChanged(event) {
     var input = event.target
+    if (isNaN(input.value) || input.value <= 0) {
+        input.value = 1
+    } else if (isNaN(input.value) || input.value >= 100) {
+        input.value = 99
+    }
+    updateCartTotal()
 }
 
-
+function addToCartClicked(event) {
+    var button = event.target
+    var shopItem = button.parentElement.parentElement.parentElement
+}
 
 function updateCartTotal() {
     var cartItemContainer = document.getElementsByClassName('container6')[0]

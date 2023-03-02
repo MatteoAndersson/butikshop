@@ -377,18 +377,9 @@ body{
 
 
 
-
-.Tshirt-box-1{
+.shop-item{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 33vh;
     width: 14vw;
     flex-direction: column;
@@ -403,18 +394,9 @@ body{
 
 
 
-
-.Tshirt-box-1-1{
+.shop-item-1{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 25vh;
     width: 14vw;
     justify-content: center;
@@ -422,23 +404,9 @@ body{
 }
 
 
-
-
-
-
-
-
-.Tshirt-box-1-2{
+.shop-item-2{
     display: flex;
     background-color: blue;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 14vw;
     justify-content: center;
@@ -446,23 +414,9 @@ body{
 }
 
 
-
-
-
-
-
-
-.Tshirt-box-1-2-pris{
+.shop-item-2-pris{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: center;
@@ -470,184 +424,47 @@ body{
 }
 
 
-
-
-
-
-
-
 .Tshirt-box-1-2-varukorg{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .shop-item-button{
     display: flex;
     background-color: lightblue;
     border-radius: 5px;
-
-
-
-
     height: 4vh;
     width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
-.Tshirt-box-2{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 33vh;
-    width: 14vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: 1px solid black;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-2-1{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 25vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-2-2{
-    display: flex;
-    background-color: blue;
-
-
-
-
-
-
-
-
-    height: 8vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-2-2-pris{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 8vh;
-    width: 7vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
 
 
 .Tshirt-box-2-2-varukorg{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .Tshirt-box-2-2-varukorg-box{
     display: flex;
     background-color: lightblue;
     border-radius: 5px;
-
-
-
-
     height: 4vh;
     width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .container8{
     display: flex;
     height: 75vh;
@@ -655,12 +472,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .container8-1{
@@ -673,269 +484,59 @@ body{
 }
 
 
-
-
-
-
-
-
-.Tshirt-box-3{
-    display: flex;
-    background-color: white;
-    height: 33vh;
-    width: 14vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: 1px solid black;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-3-1{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 25vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-3-2{
-    display: flex;
-    background-color: blue;
-
-
-
-
-
-
-
-
-    height: 8vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
 .Tshirt-box-3-2-pris{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: center;
     align-items: center;
 }
 
-
-
-
-
-
-
-
 .Tshirt-box-3-2-varukorg{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .Tshirt-box-3-2-varukorg-box{
     display: flex;
     background-color: lightblue;
     border-radius: 5px;
-
-
-
-
     height: 4vh;
     width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
-.Tshirt-box-4{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 33vh;
-    width: 14vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: 1px solid black;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-4-1{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 25vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-4-2{
-    display: flex;
-    background-color: blue;
-
-
-
-
-
-
-
-
-    height: 8vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
 
 
 .Tshirt-box-4-2-pris{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: center;
     align-items: center;
 }
 
-
-
-
-
-
-
-
 .Tshirt-box-4-2-varukorg{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .Tshirt-box-4-2-varukorg-box{
     display: flex;
     background-color: lightblue;
     border-radius: 5px;
-
-
-
-
     height: 4vh;
     width: 2.5vw;
     justify-content: space-evenly;
@@ -948,12 +549,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .container9-1{
@@ -969,264 +564,56 @@ body{
 
 
 
-
-
-
-.Tshirt-box-5{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 33vh;
-    width: 14vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: 1px solid black;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-5-1{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 25vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-5-2{
-    display: flex;
-    background-color: blue;
-
-
-
-
-
-
-
-
-    height: 8vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
 .Tshirt-box-5-2-pris{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .Tshirt-box-5-2-varukorg{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .Tshirt-box-5-2-varukorg-box{
     display: flex;
     background-color: lightblue;
     border-radius: 5px;
-
-
-
-
     height: 4vh;
     width: 2.5vw;
     justify-content: space-evenly;
     align-items: center;
 }
-.Tshirt-box-6{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 33vh;
-    width: 14vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: 1px solid black;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-6-1{
-    display: flex;
-    background-color: white;
-
-
-
-
-
-
-
-
-    height: 25vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-.Tshirt-box-6-2{
-    display: flex;
-    background-color: blue;
-
-
-
-
-
-
-
-
-    height: 8vh;
-    width: 14vw;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
 
 
 .Tshirt-box-6-2-pris{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
 
 
 
 .Tshirt-box-6-2-varukorg{
     display: flex;
     background-color: white;
-
-
-
-
-
-
-
-
     height: 8vh;
     width: 7vw;
     justify-content: space-evenly;
     align-items: center;
 }
-
-
-
-
-
-
 
 
 .Tshirt-box-6-2-varukorg-box{
