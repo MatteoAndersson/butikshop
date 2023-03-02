@@ -249,8 +249,8 @@ body{
 
 .shop-item-image{
     display: flex;
-    height: 180px;
-    width: 215px;
+    height: 160px;
+    width: 200px;
 }
 .shop-item-2-pris{
     display: flex;
